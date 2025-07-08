@@ -48,7 +48,7 @@ To achieve a wider bandwidth, a two-stage Wilkinson power divider had to be impl
 To achieve a 180° phase shift between signals over a wide bandwidth, it was necessary to design a special Schiffman phase shifter structure based on the First and Second Phase Periods in a Coupled Line:
 
 ![schiffman](images/schiffman.jpg)
-![schiffman_char](images/schiffman_char.jpg)
+![schiffman_char](images/schiffman_cha.jpg)
 
 After connecting and designing the outputs, the entire structure is presented as follows:
 
