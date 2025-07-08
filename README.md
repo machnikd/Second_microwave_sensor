@@ -90,7 +90,8 @@ The results of measurements conducted with a glass and a metal sphere moving ove
 
 
 It can be observed that the influence of objects moving between the coupled lines increases with their electrical permittivity. 
-Due to their higher electrical permittivity, moist grains cause a more pronounced response on the sensor, as demonstrated above. This relationship will be used to determine the grain's moisture content
+
+Moist grains exhibit higher electrical permittivity, which is reflected in the sensor response as shown above. In this way, the moisture content of the grain will be determined.
 
 ## What will be done
 In the coming months, improved versions of the sensor will be designed and detailed studies will be conducted on rapeseed grains. A comprehensive report will then be prepared, and a summarized version of it will be published on GitHub. The above report is temporary
