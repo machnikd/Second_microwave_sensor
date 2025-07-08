@@ -24,13 +24,12 @@
 ## Project description and objectives
 
 ### Project goal
-Rapeseed moisture content is one of the key physicochemical parameters of the seeds, because of its importance for ensuring optimal conditions for seed storage, as well as for determining the time of harvesting.  Measurement techniques usually use a large sample of seeds (in the case of capacitance meters e.g., 100 g). Therefore, the obtained result is an average value representative for the tested sample, but does not give the range of moisture of single seeds in a given batch of material.The system utilizes multiple measurements of a complex reflection coefficient that correspond to different positions and orientations of a seed under test along the sensor.
+Rapeseed moisture content is one of the key physicochemical parameters of the seeds, because of its importance for ensuring optimal conditions for seed storage, as well as for determining the time of harvesting.  Measurement techniques usually use a large sample of seeds (in the case of capacitance meters e.g., 100 g). Therefore, the obtained result is an average value representative for the tested sample, but does not give the range of moisture of single seeds in a given batch of material. The project is a prototype of a sensor and a method of measuring moisture content of individual rapeseeds. The system utilizes multiple measurements of a complex reflection coefficient that correspond to different positions and orientations of a seed under test along the sensor.
 
 ### Project assumptions
 The sensor was fabricated on Rogers RO4003C laminate (εr = 3.38, tanδ = 0.003), with a substrate thickness of 0.51 mm and copper thickness of 17.5 μm, due to its stable dielectric parameters as a function of frequency and mechanical strength.
 The active part of the sensor will consist of coupled lines arranged one above the other, into which a differential signal will be introduced.The differences between the returning signal and the reference signal will be analyzed, and based on them, information about the electrical permittivity (moisture content) of the rapeseed grain will be determined.
 The sensor should be as broadband as possible and matched at a center frequency of 5.8 GHz.
-
 
 ### Symulation environment 
 The Balun simulations were carried out using the AWR Cadence simulation software, while the simulations of the coupled lines were performed in HFSS due to the need for 3D analysis.
@@ -41,4 +40,14 @@ The Balun simulations were carried out using the AWR Cadence simulation software
 ### Balun 
 The Balun design was implemented using a Wilkinson power divider and a Schiffman phase shifter. These structures were designed to have a sufficiently wide bandwidth around 5.8 GHz.
 
-Two-stage Wilkinson power divider:
+To achieve a wider bandwidth, a two-stage Wilkinson power divider had to be implemented:
+![Wilkinson](images/Wilkinson.jpg)
+![Wilk_char](images/Wilk_char.jpg)
+
+To achieve a 180° phase shift between signals over a wide bandwidth, it was necessary to design a special Schiffman phase shifter structure based on the First and Second Phase Periods in a Coupled Line:
+![schiffman](images/schiffman.jpg)
+![schiffman_char](images/schiffman_char.jpg)
+
+After connecting and designing the outputs, the entire structure is presented as follows:
+![Balun](images/Balun.jpg)
+![Balun_char](images/balun_char.jpg)
