@@ -1,7 +1,7 @@
-# Second_microwave_sensor
+# Second_microwave_sensor - The full project report will be created after the initial tests are completed.
 "This is a project I am currently working on as part of my master's thesis. The sensor is designed to measure the electrical permittivity of objects passing through it, which allows, for example, the measurement of the moisture content of rapeseed grains — this will be its main application."
 
-## Project Report - The full project report will be created after the initial tests are completed.
+## Project Report
 ### Electronics and Telecommunications - Master's thesis
 ### Author: Damian Machnik
 ### Date: 8th June 2025
@@ -92,4 +92,5 @@ The results of measurements conducted with a glass and a metal sphere moving ove
 It can be observed that the influence of objects moving between the coupled lines increases with their electrical permittivity. 
 Due to their higher electrical permittivity, moist grains cause a more pronounced response on the sensor, as demonstrated above. This relationship will be used to determine the grain's moisture content
 
-
+## What will be done
+In the coming months, improved versions of the sensor will be designed and detailed studies will be conducted on rapeseed grains. A comprehensive report will then be prepared, and a summarized version of it will be published on GitHub. The above report is temporary
