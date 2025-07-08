@@ -41,13 +41,16 @@ The Balun simulations were carried out using the AWR Cadence simulation software
 The Balun design was implemented using a Wilkinson power divider and a Schiffman phase shifter. These structures were designed to have a sufficiently wide bandwidth around 5.8 GHz.
 
 To achieve a wider bandwidth, a two-stage Wilkinson power divider had to be implemented:
+
 ![Wilkinson](images/Wilkinson.jpg)
 ![Wilk_char](images/Wilk_char.jpg)
 
 To achieve a 180° phase shift between signals over a wide bandwidth, it was necessary to design a special Schiffman phase shifter structure based on the First and Second Phase Periods in a Coupled Line:
+
 ![schiffman](images/schiffman.jpg)
 ![schiffman_char](images/schiffman_char.jpg)
 
 After connecting and designing the outputs, the entire structure is presented as follows:
+
 ![Balun](images/Balun.jpg)
 ![Balun_char](images/balun_char.jpg)
