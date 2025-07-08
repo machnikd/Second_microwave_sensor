@@ -96,4 +96,4 @@ Moist grains exhibit higher electrical permittivity, which is reflected in the s
 ## What will be done
 In the coming months, improved versions of the sensor will be designed and detailed studies will be conducted on rapeseed grains. A comprehensive report will then be prepared, and a summarized version of it will be published on GitHub. 
 
-###The above report is temporary.
+### The above report is temporary.
