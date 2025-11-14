@@ -23,7 +23,9 @@ This is a project I am currently working on as part of my master's thesis. The s
 
    2.3. [Fabricated device](#fabricated-device)
    
-3. [What will be done](#What-will-be-done)
+3. [Measurements](#Measurements)
+
+   3.1. [Modyfications](#Modyfications)
 
 ## Project description and objectives
 
@@ -97,7 +99,16 @@ It can be observed that the influence of objects moving between the coupled line
 
 Moist grains exhibit higher electrical permittivity, which is reflected in the sensor response as shown above. In this way, the moisture content of the grain will be determined.
 
-## What will be done
-In the coming months, improved versions of the sensor will be designed and detailed studies will be conducted on rapeseed grains. A comprehensive report will then be prepared, and a summarized version of it will be published on GitHub. 
+## Measurements
 
-### The above report is temporary.
+### Modyfications
+To enable repeated measurements of rapeseed without the need for human intervention, a system with circular lines was proposed (eliminating the problem of inserting a seed once it passes through the structure). The seed rotates inside the sensor, while the measurement system collects reflection-coefficient data. To set the seed in motion, pressurized air is used and injected in the appropriate direction.
+
+The sensor and its measuring system are shown below:
+
+![sensor_plus_msystem](images/sensor_plus_msystem.jpg)
+
+The entire system during measurements looks as follows:
+
+![sens_measurent](images/sens_measurent.jpg)
+
