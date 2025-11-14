@@ -27,7 +27,7 @@ This is a project I am currently working on as part of my master's thesis. The s
 
    3.1. [Modyfications](#Modyfications)
 
-   3.2. [Measurement procedure](#measurement_procedure)
+   3.2. [Measurement procedure](#Measurement_procedure)
 
 ## Project description and objectives
 
