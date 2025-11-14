@@ -54,7 +54,7 @@ To achieve a 180° phase shift between signals over a wide bandwidth, it was nec
 ![schiffman](images/schiffman.jpg)
 ![schiffman_char](images/schiffman_char.jpg)
 
-After connecting and designing the outputs, the entire structure is presented as follows:
+After connecting and designing the outputs, the entire structure of Balun is presented as follows:
 
 ![Balun](images/Balun.jpg)
 ![Balun_char](images/Balun_char.jpg)
