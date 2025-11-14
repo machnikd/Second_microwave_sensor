@@ -19,7 +19,7 @@ This is a project I am currently working on as part of my master's thesis. The s
    
    2.1. [Balun](#Balun)
    
-   2.2. [Coupled lines](#Coupled-lines)
+   2.2. [Vertical differential coupled pair](#Vertical-differential-coupled-pair)
 
    2.3. [Fabricated device](#fabricated-device)
    
@@ -59,7 +59,7 @@ After connecting and designing the outputs, the entire structure of Balun is pre
 ![Balun](images/Balun.jpg)
 ![Balun_char](images/Balun_char.jpg)
 
-### Coupled lines
+### Vertical differential coupled pair
 The simulation investigated the impact of various parameters of two coupled lines, including:
 - the width and length of the transmission lines,
 - the line tapering,
@@ -67,9 +67,13 @@ The simulation investigated the impact of various parameters of two coupled line
 - the ground plane cutout in the Balun,
 - the spacing between the lines,
 - as well as other minor parameters.
-
+- 
+Between these lines, the moisture content of rapeseed will be measured.
 The final design and characteristics of the lines are presented as follows:
-(will be added soon becouse of expired HFSS student license)
+
+![lines](images/lines.jpg)
+
+
 
 ### Fabricated device
 Both the Balun and the coupled lines were fabricated using laser printing, and after preliminary testing with a spectrum analyzer, they were connected together using soldered joints.
