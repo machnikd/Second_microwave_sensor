@@ -27,6 +27,8 @@ This is a project I am currently working on as part of my master's thesis. The s
 
    3.1. [Modyfications](#Modyfications)
 
+   3.2. [Measurement procedure](#measurement_procedure)
+
 ## Project description and objectives
 
 ### Project goal
@@ -112,3 +114,7 @@ The entire system during measurements looks as follows:
 
 ![sens_measurent](images/sens_measurent.jpg)
 
+### Measurement procedure
+Seeds with moisture levels ranging from 8% to 18% were prepared and their reflection coefficient was measured. Unfortunately, the measurements were unsuccessful. Although an increase in the average reflection-coefficient values with increasing moisture content is observable, the measurements for seeds of the same moisture level exhibit considerable variability. Such results may be caused by variability in seed size, non-uniform internal structure and shape, as well as heterogeneous moisture distribution within a single batch.
+
+At this stage, research is being conducted to identify the source of the problem and subsequently resolve it
